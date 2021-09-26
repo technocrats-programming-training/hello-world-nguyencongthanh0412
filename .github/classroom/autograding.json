@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Hello World Print Accuracy",
+      "setup": "",
+      "run": "java HelloWorld.java",
+      "input": "",
+      "output": "Hello, World!",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Compilation Test",
+      "setup": "",
+      "run": "javac HelloWorld.java",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
